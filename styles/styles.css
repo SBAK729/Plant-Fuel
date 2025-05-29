@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 32px;
+}
+
+.links-container {
+  display: flex;
+  align-items: center;
+}
+.links {
+  margin-right: 24px;
+}
+.links a {
+  margin-left: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+.btn {
+  border: solid 1px gray;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 43px;
+}
+
+.join {
+  font-size: 14px;
+  width: 64px;
+  padding: 13px 18px 13px 18px;
+}
+
+.signup {
+  width: 110px;
+  padding: 13px 24px 13px 24px;
+  background-color: green;
+  color: white;
+  font-size: 14px;
+}
+
+.hero-section {
+  align-items: center;
+  justify-items: center;
+  /* margin-top: 64px; */
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  margin: 0px;
+}
+
+.hero-section .hero-container h1 {
+  font-size: 96px;
+  font-weight: bold;
+  text-align: center;
+  color: green;
+  margin: 16px;
+}
+.hero-section .hero-container p {
+  width: 500px;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 24px;
+  color: green;
+}
+
+.hero-section .hero-container .btn-hero {
+  width: fit-content;
+  height: fit-content;
+  padding: 16px 32px;
+  text-align: center;
+  background-color: green;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+.hero-image {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin-bottom: 0px;
+  margin-bottom: 48px;
+}
+
+.hero-section .hero-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0px 32px;
+}
+
+.products {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: black;
+  padding: 32px 100px;
+}
+
+.products h2 {
+  width: 60%;
+  color: white;
+  margin: 0px 32px;
+  margin-bottom: 32px;
+  font-size: 64px;
+}
+
+.products p {
+  width: 60%;
+  color: white;
+  margin: 0px 32px;
+  margin-bottom: 32px;
+  line-height: 1.5rem;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 32px;
+  gap: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+svg {
+  width: 32px;
+  height: 32px;
+  fill: green;
+}
+
+.products .cards-container .cards h3 {
+  color: white;
+  font-size: 32px;
+}
+
+.products .cards-container .cards p {
+  margin: 0px;
+}
